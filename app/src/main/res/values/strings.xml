@@ -2,4 +2,6 @@
     <string name="app_name">LAB_WEEK_10</string>
     <string name="text_total">Total: %d</string>
     <string name="button_increment">Press Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
