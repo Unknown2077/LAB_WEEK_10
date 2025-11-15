@@ -20,4 +20,9 @@ class TotalViewModel: ViewModel() {
     fun incrementTotal() {
         _total.postValue(_total.value?.plus(1))
     }
+
+    // Allow external callers (e.g. Activity) to set the total explicitly
+    fun setTotal(value: Int) {
+        _total.postValue(value)
+    }
 }
