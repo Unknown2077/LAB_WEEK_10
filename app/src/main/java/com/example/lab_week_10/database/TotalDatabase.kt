@@ -10,7 +10,7 @@ import androidx.room.RoomDatabase
 // version: Used to define schema version when there's a change to the
 // schema.
 // Update the version when you try to change the schema
-@Database(entities = [Total::class], version = 1)
+@Database(entities = [Total::class], version = 3)
 abstract class TotalDatabase : RoomDatabase() {
     // Declare the Dao
     abstract fun totalDao(): TotalDao
